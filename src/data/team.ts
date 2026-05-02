@@ -15,10 +15,10 @@ export type TeamMember = {
 
 export const team: TeamMember[] = [
   {
-    name: "Dr. Adaeze Okonkwo",
+    name: "Dr. Frances Oyaide",
     role: "Founder & Executive Director",
-    bio: "A former public-health physician, Adaeze founded 360 DWAIF in 2013 after a decade of community work in Enugu. She still runs every Monday-morning field call.",
-    initials: "AO",
+    bio: "A former public-health physician, Adaeze founded 360 DWAIF in 2013 after a decade of community work in Lagos. She still runs every Monday-morning field call.",
+    initials: "FO",
     image: adaeze,
   },
   {
