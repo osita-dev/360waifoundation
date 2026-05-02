@@ -17,14 +17,13 @@ export const Hero = ({ onDonate }: { onDonate: () => void }) => {
           </div>
 
           <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-semibold leading-[1.02] text-balance">
-            Every life deserves
+            Every child deserves a
             <br />
-            <span className="italic text-primary">a fair beginning.</span>
+            <span className="italic text-primary">future worth living</span>
           </h1>
 
           <p className="mt-6 text-lg text-muted-foreground max-w-xl text-balance leading-relaxed">
-            360 DWAIF works alongside underserved communities in Nigeria — providing
-            education, livelihoods and care that turn potential into possibility.
+            We work inside communities — building hope, creating change you can see.
           </p>
 
           <div className="mt-9 flex flex-wrap items-center gap-3">

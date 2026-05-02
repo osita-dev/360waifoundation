@@ -1,8 +1,8 @@
 export const impactNumbers = [
-  { value: "12,400+", label: "Lives directly reached" },
-  { value: "200+", label: "Scholarships funded" },
-  { value: "10,000+", label: "Meals served" },
-  { value: "13 yrs", label: "Of community work" },
+  { value: "12,400+", label: "Lives touched" },
+  { value: "200+", label: "Communities reached" },
+  { value: "13 yrs", label: "Years on the ground" },
+  { value: "320", label: "Volunteers" },
 ];
 
 export const allocation = [

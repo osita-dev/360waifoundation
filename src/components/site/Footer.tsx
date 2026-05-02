@@ -1,4 +1,4 @@
-import { Instagram, Twitter, Facebook, Linkedin
+import { Instagram, Twitter, Facebook, Linkedin, Youtube
  } from "lucide-react";
 import { Link } from "react-router-dom";
 
@@ -35,6 +35,7 @@ export const Footer = () => (
               { Icon: Instagram, link: "https://instagram.com/yourhandle" },
               { Icon: Twitter, link: "https://twitter.com/yourhandle" },
               { Icon: Facebook, link: "https://web.facebook.com/profile.php?id=100080117554259" },
+              { Icon: Youtube, link: "https://www.youtube.com/@360degreeswaifoundation4" },
             ].map(({ Icon, link }, i) => (
               <a
                 key={i}
@@ -81,8 +82,9 @@ export const Footer = () => (
       </div>
 
       <div className="mt-14 pt-6 border-t border-primary-foreground/10 flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-primary-foreground/60">
-        <div>© {new Date().getFullYear()} 360 Degrees What Am I Foundation. Registered in Nigeria since 2013.</div>
+        <div>© {new Date().getFullYear()} 360 Degrees What Am I Foundation.  All rights reserved.</div>
         <div className="flex gap-5">
+          <a href="#" className="hover:text-accent">Registered NGO in Nigeria</a>
           <a href="#" className="hover:text-accent">Privacy</a>
           <a href="#" className="hover:text-accent">Terms</a>
         </div>
