@@ -1,8 +1,8 @@
 const stats = [
-  { value: "12,400+", label: "Lives directly reached" },
-  { value: "38", label: "Communities served" },
-  { value: "94¢", label: "Of every $1 to programs" },
-  { value: "13 yrs", label: "Of grounded fieldwork" },
+   { value: "12,400+", label: "Lives touched" },
+  { value: "200+", label: "Communities reached" },
+  { value: "13 yrs", label: "Years on the ground" },
+  { value: "320", label: "Volunteers" },
 ];
 
 export const Impact = () => (
