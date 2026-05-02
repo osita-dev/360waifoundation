@@ -44,7 +44,7 @@ export const DonateDialog = ({ open, onOpenChange }: { open: boolean; onOpenChan
                   <Heart className="h-5 w-5 fill-current text-accent" /> Make a donation
                 </DialogTitle>
                 <DialogDescription className="text-primary-foreground/75">
-                  100% transparent. 94¢ of every dollar reaches our programs.
+                  100% transparent.
                 </DialogDescription>
               </DialogHeader>
             </div>

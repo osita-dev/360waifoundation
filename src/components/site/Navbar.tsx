@@ -46,10 +46,10 @@ export const Navbar = ({ onDonate }: { onDonate: () => void }) => {
             alt="360 DWAIF logo"
             width={512}
             height={512}
-            className="h-16 w-16 md:h-20 md:w-20 object-contain"
+            className="h-14 w-14 md:h-12 md:w-12 object-contain"
           />
           <div className="leading-tight">
-            <div className="font-display text-base font-semibold">DWAI</div>
+            <div className="font-display text-base font-semibold">360 DWAI</div>
             <div className="text-[10px] uppercase tracking-[0.18em] text-muted-foreground">Foundation</div>
           </div>
         </Link>

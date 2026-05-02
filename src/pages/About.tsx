@@ -3,7 +3,6 @@ import { ArrowRight } from "lucide-react";
 import { SiteLayout } from "@/components/site/SiteLayout";
 import { PageHeader } from "@/components/site/PageHeader";
 import { Button } from "@/components/ui/button";
-import { team } from "@/data/team";
 import { milestones } from "@/data/impact";
 
 const values = [
@@ -95,32 +94,6 @@ const AboutPage = () => (
             </li>
           ))}
         </ol>
-      </div>
-    </section>
-
-    {/* Team */}
-    <section className="py-16 bg-secondary/40 border-t border-border/60">
-      <div className="container">
-        <div className="text-xs uppercase tracking-[0.22em] text-accent font-medium mb-4">— The team</div>
-        <h2 className="font-display text-3xl md:text-4xl font-medium leading-tight mb-10">
-          People doing the work.
-        </h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
-          {team.map((m) => (
-            <div key={m.name} className="bg-card border border-border rounded-2xl p-6 hover:shadow-soft transition-all">
-              <div className="flex items-center gap-4 mb-4">
-                <div className="h-14 w-14 rounded-full bg-gradient-forest text-primary-foreground grid place-items-center font-display text-lg font-semibold">
-                  {m.initials}
-                </div>
-                <div>
-                  <div className="font-display text-lg font-medium leading-tight">{m.name}</div>
-                  <div className="text-xs text-accent font-medium uppercase tracking-wider">{m.role}</div>
-                </div>
-              </div>
-              <p className="text-sm text-muted-foreground leading-relaxed">{m.bio}</p>
-            </div>
-          ))}
-        </div>
       </div>
     </section>
 

@@ -18,7 +18,7 @@ const ImpactPage = () => (
       <div className="container">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-y-10 gap-x-6">
           {impactNumbers.map((s) => (
-            <div key={s.label} className="text-center md:text-left">
+            <div key= {s.label} className="text-center md:text-left">
               <div className="font-display text-4xl md:text-5xl font-medium">{s.value}</div>
               <div className="mt-2 text-sm text-primary-foreground/70 max-w-[12rem] mx-auto md:mx-0">
                 {s.label}
