@@ -49,7 +49,7 @@ export const Navbar = ({ onDonate }: { onDonate: () => void }) => {
             className="h-16 w-16 md:h-20 md:w-20 object-contain"
           />
           <div className="leading-tight">
-            <div className="font-display text-base font-semibold">DWAIF</div>
+            <div className="font-display text-base font-semibold">DWAI</div>
             <div className="text-[10px] uppercase tracking-[0.18em] text-muted-foreground">Foundation</div>
           </div>
         </Link>
