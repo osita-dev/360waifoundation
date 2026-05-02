@@ -23,7 +23,7 @@ export const Footer = () => (
             <div className="h-10 w-10 rounded-full bg-primary-foreground/10 grid place-items-center font-display font-semibold">
               360
             </div>
-            <div className="font-display text-lg">DWAIF Foundation</div>
+            <div className="font-display text-lg">DWAI Foundation</div>
           </div>
           <p className="text-primary-foreground/70 max-w-sm leading-relaxed">
             360 Degrees What Am I Foundation — a Nigerian non-profit committed to
